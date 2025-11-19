@@ -1,36 +1,37 @@
 # Workshop-4
 
-This repository contains the fourth workshop project by Burdulaa.  
-It builds on previous workshops and introduces additional features, structure or styling based on the project goal.
+Here I started practising building website headers using plain HTML and CSS.
 
-## Project Overview
+This project is a small single-page static site where I experiment with creating and styling a header section (logo/image, navigation, and basic layout).
 
-- A multi-page static website (or single page with enhanced features) using HTML and CSS  
-- Improved layout, design tweaks and possibly new assets or content  
-- Pure front-end: no backend server or database required  
-- Designed to run in any modern web browser
+> Repository: https://github.com/Burdulaa/Workshop-4
 
 ## Features
 
-- Navigation between pages (e.g., home, about, contact, gallery)  
-- Structured folder layout (for assets such as images, stylesheets)  
-- Shared stylesheet (and maybe modular CSS) for consistent design  
-- Use of semantic HTML5 elements (e.g., `<header>`, `<nav>`, `<main>`, `<footer>`)  
-- Responsive design (if included) for mobile and larger screens  
-- Basic interactive elements (optional) such as hover effects, image galleries, or transitions
+- Single-page static website (`index.html`)
+- Header section built with semantic HTML (`<header>`, `<nav>`, etc.)
+- Basic navigation layout (menu structure for future links)
+- Custom styling in a separate stylesheet (`style.css`)
+- Local image asset (`download.png`) used in the layout (e.g. logo or decorative element)
+- Pure front-end: no JavaScript, no backend
+
+## Tech Stack
+
+- HTML5
+- CSS3
 
 ## Getting Started
 
-### Prerequisites
-
-- A modern web browser (Chrome, Firefox, Edge, Safari)  
-- (Optional) A lightweight static server for local testing (e.g., `python -m http.server`)
-
-### Installation and Running Locally
+You only need a web browser.
 
 ```bash
 # Clone the repository
 git clone https://github.com/Burdulaa/Workshop-4.git
 
-# Navigate into project directory
+# Go into the project folder
 cd Workshop-4
+
+Workshop-4/
+├── download.png   # Image asset used in the page
+├── index.html     # Main page with the header layout
+└── style.css      # Styles for the header and page
